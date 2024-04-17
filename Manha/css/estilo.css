@@ -1,0 +1,75 @@
+@charset "utf-8";
+*{
+	font-family:verdana, arial;
+	/*tipografia da fonte*/
+}
+body{
+	background-color:#d2dae2;/*cor do plano de fundo*/
+}
+.principal{
+	text-align:center;
+	text-shadow:2px 2px 2px white,
+				3px 3px 3px black;
+	color:#00008B;
+	font-family:cursive;
+	font-size;1.5em; /*Corresponde a 36px*/
+}
+#especial{ /*id*/
+	font-family:italic
+}
+p{
+	text-align:justify;
+	text-indent:20px;
+	text-height:2;
+}
+/*Formatando Links*/
+a:link{/*Antes de Clicar*/
+	text-decoration:none;
+	color:black;
+}
+a:visited{/*após clicado*/
+	color:Red;
+}
+a:hover{/*quando sobre o link*/
+	letter-spacing: 2px;
+}
+/*Formatando o fundo com imagem*/
+.fundo{
+	background-image:url(../img/fundo07.png);
+	background-repeat: no-repeat;
+	background-size:100%;
+	background-attachment: fixed;
+}
+/*Habilitando o scroll deslizante*/
+html{
+	scroll-behavior:smooth;
+}
+/*Formatando a página imagens*/
+.imagesesquerda{
+	float:left;
+}
+.caixaimagem{
+	width:250px;
+	margin:auto;
+}
+.imgcentro{
+	width:100%;
+}
+/*Formatanod a página parágrafos*/
+.esquerda{
+	text-align:left;
+}
+.direita{
+	text-align:right;
+}
+.centro{
+	text-align:center;
+}
+.justificado{
+	text-align:justify;
+	border:4px double navy;
+	background-color:rgba(0,0,0,0.5);
+	padding:20px;
+	margin:20px;
+	text-shadow:1px 1px 1px silver;
+}
